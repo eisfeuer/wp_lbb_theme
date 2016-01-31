@@ -1,2 +1,4 @@
 %h1= link_to(get_bloginfo('name'), get_bloginfo('url'))
 %h2= get_bloginfo('description')
+.menu
+  = wp_nav_menu( array('menu_class' => 'main-menu', 'container_id' => 'navwrap'))
